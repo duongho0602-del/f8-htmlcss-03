@@ -535,7 +535,7 @@ a:hover {
     justify-content: center;
 }
 
-.chuyen .nut {
+.nut {
     display: flex;
     width: 36px;
     height: 36px;
@@ -545,7 +545,198 @@ a:hover {
     justify-content: center;
 }
 
-.chuyen .nut:hover {
+.nut:hover {
     background-color: var(--primary-color2);
     color: rgba(255, 255, 255, 1);
+    transition: 0.5s;
+}
+
+.tai {
+    margin-top: 265px;
+    background-color: var(--primary-color2);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+
+.tai .desc {
+    margin-top: -95px;
+    width: 284px;
+    height: 522px;
+    object-fit: cover;
+}
+
+.tai .with {
+    margin-top: 76px;
+    max-width: 586px;
+}
+
+.tai h2 {
+    max-width: 489px;
+    font-weight: 600;
+    font-size: 48px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.tai .with p {
+    margin-top: 18px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.dow {
+    display: flex;
+    margin-top: 38px;
+    column-gap: 28px;
+}
+
+.dow a {
+    width: 135px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.read .chuyen {
+    margin-top: 28px;
+    justify-content: start;
+}
+
+.read {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 170px 0px;
+}
+
+.latest {
+    max-width: 470px;
+}
+
+.latest h2 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: rgba(16, 55, 92, 1);
+}
+
+.latest a {
+    display: inline-block;
+    margin-top: 28px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--primary-color1);
+    text-decoration: underline;
+}
+
+.danhsach {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+}
+
+.danhsach .key {
+    flex: 1;
+    width: 270px;
+    height: 375px;
+    border-radius: 12px;
+    border: solid, 1px, rgba(232, 235, 238, 1);
+    overflow: hidden;
+}
+
+.danhsach .key img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.danhsach .hid {
+    width: 270px;
+    height: 172px;
+    overflow: hidden;
+}
+
+.key .it {
+    margin: 18px 0px 21px 22px;
+}
+
+.danhsach .key h3 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--primary-color1);
+    margin-top: 18px;
+}
+
+.key .it p {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(87, 95, 102, 1);
+}
+
+.key .it a {
+    display: inline-block;
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--primary-color1);
+}
+
+.key:hover {
+    box-shadow: 0px 18px 50px rgba(0, 0, 0, 0.05);
+}
+
+.key:hover img {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.key:hover a {
+    color: var(--primary-color2);
+}
+
+.alway {
+    background-color: rgba(246, 251, 255, 1);
+    text-align: center;
+    margin-bottom: 170px;
+}
+
+.alway h3 {
+    display: inline-block;
+    margin-top: 100px;
+    font-weight: 600;
+    font-size: 50px;
+    color: var(--primary-color1);
+}
+
+.alway h3::after {
+    display: block;
+    content: " ";
+    width: 136px;
+    height: 2px;
+    background-color: var(--primary-color2);
+    transform: translate(254%, 18px);
+}
+
+.alway p {
+    margin: 38px auto;
+    max-width: 617px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(87, 95, 102, 1);
+}
+
+.alway .btn-appoint {
+    width: 205px;
+    height: 60px;
+    margin-bottom: 100px;
 }
