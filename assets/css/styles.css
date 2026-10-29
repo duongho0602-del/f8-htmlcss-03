@@ -740,3 +740,137 @@ a:hover {
     height: 60px;
     margin-bottom: 100px;
 }
+
+.footer {
+    background-color: var(--primary-color1);
+    font-family: "Open Sans", sans-serif;
+}
+
+.footer .foot {
+    display: grid;
+    grid-template-columns: 1fr 0.4fr 0.4fr 1fr;
+    column-gap: 78px;
+    padding: 100px 0px 28px;
+}
+
+.daidien img {
+    width: 86px;
+    height: 31px;
+}
+
+.daidien {
+    max-width: 336px;
+}
+
+.daidien p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(169, 179, 187, 1);
+    margin-top: 21px;
+}
+.sup {
+    display: inline-block;
+    max-width: 160px;
+}
+
+.sup h3 {
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.sup .dc {
+    display: inline-block;
+    margin-top: 28px;
+}
+
+.sup a {
+    display: inline-block;
+    max-width: 134px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(169, 179, 187, 1);
+}
+
+.sup ul li:first-child {
+    margin-top: 20px;
+}
+
+.mxh {
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 28px;
+    margin-top: 20px;
+}
+
+.sup .ic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    color: #2e80ce;
+    background: #fff;
+    transition: 0.25s;
+}
+
+.mxh .ic:hover {
+    color: #fff;
+    background: #2e80ce;
+}
+
+.footer__desc {
+    margin-top: 20px;
+    display: inline-block;
+    width: 273px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: rgba(169, 179, 187, 1);
+}
+
+.footer-form {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.footer-form__input {
+    width: 212px;
+    height: 46px;
+    padding: 0 10px;
+    outline: none;
+    border: 1px solid #406181;
+    border-radius: 4px;
+    color: #fff;
+    background: transparent;
+}
+
+.footer-form__input::placeholder {
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #9ca8b1;
+}
+
+.footer-form__submit {
+    --height: 46px;
+    min-width: 108px;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    margin-left: 12px;
+}
+
+.footer__copyright {
+    padding: 28px 0 42px;
+    border-top: 1px solid #406181;
+}
+
+.footer__copyright-text {
+    font-size: 1.4rem;
+    line-height: 1.86;
+    text-align: center;
+    color: #aab3ba;
+}
